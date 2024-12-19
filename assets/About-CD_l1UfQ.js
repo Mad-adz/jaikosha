@@ -1,0 +1,1 @@
+import{j as t}from"./index-Hxk_8Dqg.js";import{P as o}from"./index-D6pOIrIU.js";import{I as s}from"./index-CoGhv7cm.js";const a="/jaikosha/assets/about_banner-Bsy8yJHu.jpg",i=()=>t.jsxs("main",{children:[t.jsx(o,{bgImg:a,title:"About Us"}),t.jsx(s,{})]});export{i as default};
