@@ -1,5 +1,12 @@
+import { workshopBanner } from "../assets/images";
+import { PanoramicBanner } from "../components";
+
 const Workshops = () => {
-  return <div>Workshops</div>;
+  return (
+    <main>
+      <PanoramicBanner bgImg={workshopBanner} title={"Workshops"} />
+    </main>
+  );
 };
 
 export default Workshops;

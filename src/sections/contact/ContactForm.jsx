@@ -3,7 +3,7 @@ import { addresses } from "../../constants";
 const ContactForm = () => {
   return (
     <div>
-      <section className="py-10 mt-[6rem]">
+      <section className="py-10">
         <div className="container text-center">
           <h5 className="block antialiased tracking-normal font-sans font-semibold leading-snug text-blue-gray-900 mb-4 !text-xl lg:!text-2xl">
             Reach Us

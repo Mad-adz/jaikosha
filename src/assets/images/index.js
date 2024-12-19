@@ -20,6 +20,10 @@ import donationBanner from "./donation_banner.jpg";
 import eventBanner from "./event_banner.jpg";
 import eventBanner2 from "./event_banner2.jpg";
 
+import contactBanner from "./contact_banner.jpg";
+
+import workshopBanner from "./workshop_banner.jpg";
+
 export {
   jaikosha,
   bannerImg1,
@@ -38,4 +42,6 @@ export {
   donationBanner,
   eventBanner,
   eventBanner2,
+  contactBanner,
+  workshopBanner,
 };

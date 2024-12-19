@@ -34,7 +34,7 @@ const Header = () => {
           >
             <ul className="relative z-2 flex flex-col bg-zinc-200 lg:bg-transparent items-center justify-center lg:flex-row lg:mr-10 py-4 lg:py-0">
               {navLinks.map((link) => (
-                <li key={link.id}>
+                <li key={link.id} onClick={() => setIsMenuOpen(false)}>
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
