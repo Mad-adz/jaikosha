@@ -16,6 +16,7 @@ import {
   NotFound,
   Workshops,
 } from "./pages";
+import Loader from "./pages/Loader";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,7 +38,7 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <Suspense fallback={"Loading..."}>
+    <Suspense fallback={<Loader />}>
       <RouterProvider router={router} />
     </Suspense>
   );
