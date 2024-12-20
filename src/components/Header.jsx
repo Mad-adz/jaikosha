@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { navLinks } from "../constants";
-import { HamburgerMenu, SubscribeBtn } from ".";
+import { HamburgerMenu } from ".";
 import { jaikosha } from "../assets/images";
 
 const Header = () => {
@@ -10,10 +10,8 @@ const Header = () => {
   const toggleMenu = () => {
     if (isMenuOpen) {
       setIsMenuOpen(false);
-      // enablePageScroll();
     } else {
       setIsMenuOpen(true);
-      // disablePageScroll();
     }
   };
   return (
@@ -50,9 +48,9 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex justify-center lg:justify-end mt-4 lg:mt-0 bg-transparent">
+            {/* <div className="flex justify-center lg:justify-end mt-4 lg:mt-0 bg-transparent">
               <SubscribeBtn />
-            </div>
+            </div> */}
           </nav>
           <div className="lg:hidden">
             <HamburgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />

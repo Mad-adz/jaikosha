@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const ResourceCard = ({ title, description, url ,image}) => {
+const ResourceCard = ({ title, description, url, image }) => {
   return (
     <div className="relative flex w-full flex-col rounded-xl bg-yellow-50 bg-clip-border text-gray-700 shadow-md">
       <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
@@ -20,7 +20,6 @@ const ResourceCard = ({ title, description, url ,image}) => {
           to={url}
           data-ripple-light="true"
           type="button"
-          // className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           className="px-6 py-3 rounded-full bg-gradient-to-t from-pink-500 via-red-400 to-yellow-500 hover:opacity-90 transition-opacity text-white"
         >
           Explore

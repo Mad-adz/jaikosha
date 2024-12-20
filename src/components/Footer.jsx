@@ -3,18 +3,16 @@ import { jaikosha } from "../assets/images";
 const Footer = () => {
   return (
     <div>
-      {/* #1A1D2B */}
       <footer className="bg-emerald-700">
         <div className="container">
           <div className="px-6 py-12">
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
               <div className="space-y-4">
                 <div>
-                  <a href="/">
+                  <Link to="/">
                     <div className="flex items-center space-x-2 text-2xl font-medium">
                       <span>
                         <img
-                          // src="https://www.svgrepo.com/show/452102/slack.svg"
                           src={jaikosha}
                           alt="AI Logo"
                           width="64"
@@ -24,7 +22,7 @@ const Footer = () => {
                       </span>
                       <span className="text-white">Jai Kosha</span>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="max-w-sm lg:pr-16 text-md text-gray-200">
                   Enhance productivity and efficiency with cutting-edge
@@ -32,8 +30,8 @@ const Footer = () => {
                   operations.
                 </div>
                 <div className="flex space-x-2">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     target="_blank"
                     className="text-gray-200 hover:text-gray-200"
                   >
@@ -50,9 +48,9 @@ const Footer = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                  </a>
-                  <a
-                    href=""
+                  </Link>
+                  <Link
+                    to=""
                     target="_blank"
                     className="text-gray-200 hover:text-gray-200"
                   >
@@ -65,7 +63,7 @@ const Footer = () => {
                     >
                       <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -77,7 +75,7 @@ const Footer = () => {
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
                         <Link
-                          to=""
+                          to="/"
                           className="text-md leading-6 text-gray-300 hover:text-gray-50"
                         >
                           Home
@@ -85,7 +83,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <Link
-                          to=""
+                          to="about"
                           className="text-md leading-6 text-gray-300 hover:text-gray-50"
                         >
                           About Us
@@ -93,7 +91,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <Link
-                          to=""
+                          to="contact"
                           className="text-md leading-6 text-gray-300 hover:text-gray-50"
                         >
                           Contact Us

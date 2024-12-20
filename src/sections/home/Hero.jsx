@@ -44,9 +44,9 @@ const Hero = () => {
                 backgroundImage: `url(${image})`,
               }}
             >
-              <div className="h-full bg-black/30 flex items-center justify-center text-white text-3xl font-bold">
+              {/* <div className="h-full bg-black/30 flex items-center justify-center text-white text-3xl font-bold">
                 Slide {index + 1}
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
         ))}

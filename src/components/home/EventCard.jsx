@@ -26,15 +26,6 @@ const EventCard = ({ title, datetime, location, url }) => {
             display.
           </p>
 
-          {/* <div className="flex flex-wrap gap-3 mb-8 text-gray-300">
-            <span className="px-4 py-2 rounded-full bg-gradient-to-r from-pink-500/10 to-yellow-500/10 hover:bg-gradient-to-r hover:from-pink-500/10 hover:to-yellow-500/40 border border-gray-700 hover:border-yellow-500 hover:scale-110 transition-transform cursor-pointer">
-              Tag 1
-            </span>
-            <span className="px-4 py-2 rounded-full bg-gradient-to-r from-pink-500/10 to-yellow-500/10 hover:bg-gradient-to-r hover:from-pink-500/10 hover:to-yellow-500/40 border border-gray-700 hover:border-yellow-500 hover:scale-110 transition-transform cursor-pointer">
-              Tag 2
-            </span>
-          </div> */}
-
           <Link
             to={url}
             className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-t from-pink-500 via-red-400 to-yellow-500 hover:opacity-90 transition-opacity text-white"
