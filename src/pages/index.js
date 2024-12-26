@@ -7,5 +7,8 @@ export const Events = lazy(() => import("./Events"));
 export const Home = lazy(() => import("./Home"));
 export const Initiatives = lazy(() => import("./Initiatives"));
 export const Workshops = lazy(() => import("./Workshops"));
+export const OnlineWS = lazy(() => import("./Workshops"));
+export const OfflineWS = lazy(() => import("./Workshops"));
+export const YendhraKovil = lazy(() => import("./YendhraKovil"));
 
 export const NotFound = lazy(() => import("./NotFound"));

@@ -1,5 +1,11 @@
+import { HeaderOld } from "../components";
+
 const NotFound = () => {
-  return <div>NotFound</div>;
+  return (
+    <div>
+      <HeaderOld />
+    </div>
+  );
 };
 
 export default NotFound;

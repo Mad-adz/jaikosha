@@ -15,6 +15,7 @@ import {
   Initiatives,
   NotFound,
   Workshops,
+  YendhraKovil,
 } from "./pages";
 import Loader from "./pages/Loader";
 
@@ -26,7 +27,9 @@ const router = createBrowserRouter(
         <Route path="about" element={<About />} />
         <Route path="initiatives" element={<Initiatives />} />
         <Route path="events" element={<Events />} />
-        <Route path="workshops" element={<Workshops />} />
+        <Route path="online" element={<Workshops />} />
+        <Route path="offline" element={<Workshops />} />
+        <Route path="yendhrakovil" element={<YendhraKovil />} />
         <Route path="contact" element={<Contact />} />
         <Route path="donate" element={<Donate />} />
       </Route>
