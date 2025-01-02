@@ -11,4 +11,18 @@ export const OnlineWS = lazy(() => import("./Workshops"));
 export const OfflineWS = lazy(() => import("./Workshops"));
 export const YendhraKovil = lazy(() => import("./YendhraKovil"));
 
+export const MeditationPractices = lazy(() =>
+  import("./resources/MeditationPractices")
+);
+export const SuperiorYoga = lazy(() => import("./resources/SuperiorYoga"));
+export const AudioVideoSermons = lazy(() =>
+  import("./resources/AudioVideoSermons")
+);
+export const SpritualDevices = lazy(() =>
+  import("./resources/SpritualDevices")
+);
+export const ResourcePageTemplate = lazy(() =>
+  import("./ResourcePageTemplate")
+);
+
 export const NotFound = lazy(() => import("./NotFound"));

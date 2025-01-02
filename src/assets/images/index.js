@@ -24,6 +24,12 @@ import contactBanner from "./contact_banner.jpg";
 
 import workshopBanner from "./workshop_banner.jpg";
 
+import yendhrakovilBanner from "./yendhra_kovil_banner.jpg";
+import meditationBanner from "./meditation_banner.jpg";
+import superiorYogaBanner from "./superior_yoga_banner.jpg";
+import avSermonsBanner from "./av_sermons_banner.jpg";
+import spiritualDevicesBanner from "./spiritual_devices_banner.jpg";
+
 export {
   jaikosha,
   bannerImg1,
@@ -44,4 +50,9 @@ export {
   eventBanner2,
   contactBanner,
   workshopBanner,
+  yendhrakovilBanner,
+  meditationBanner,
+  superiorYogaBanner,
+  avSermonsBanner,
+  spiritualDevicesBanner,
 };

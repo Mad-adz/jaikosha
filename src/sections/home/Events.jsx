@@ -3,7 +3,7 @@ import { events } from "../../constants";
 
 const Events = () => {
   return (
-    <section className="py-8 bg-yellow-50">
+    <section className="py-8 bg-yellow-50/50">
       <div className="container">
         <h3 className="text-3xl font-bold mb-16">
           Join Our Spiritual Gatherings
@@ -17,6 +17,7 @@ const Events = () => {
                 location={event.location}
                 url={event.url}
                 image={event.image}
+                description={event.description}
               />
             </div>
           ))}

@@ -29,11 +29,12 @@ const Header = () => {
     setOpenDropdown((prev) => ({ ...prev, [key]: !prev[key] }));
 
   const navLinks = [
-    { id: 1, to: "about", label: "About", hasSubmenu: false },
-    { id: 2, to: "initiatives", label: "Initiatives", hasSubmenu: false },
-    { id: 3, to: "events", label: "Events", hasSubmenu: false },
+    { id: 1, to: "", label: "Home", hasSubmenu: false },
+    { id: 2, to: "about", label: "About", hasSubmenu: false },
+    { id: 3, to: "initiatives", label: "Initiatives", hasSubmenu: false },
+    { id: 4, to: "events", label: "Events", hasSubmenu: false },
     {
-      id: 4,
+      id: 5,
       to: "",
       label: "Workshops",
       hasSubmenu: true,
@@ -43,9 +44,9 @@ const Header = () => {
         { id: 2, to: "offline", label: "Offline" },
       ],
     },
-    { id: 5, to: "yendhrakovil", label: "Yendhra Kovil", hasSubmenu: false },
-    { id: 6, to: "contact", label: "Contact", hasSubmenu: false },
-    { id: 7, to: "donate", label: "Donate", hasSubmenu: false },
+    { id: 6, to: "yendhrakovil", label: "Yendhra Kovil", hasSubmenu: false },
+    { id: 7, to: "contact", label: "Contact", hasSubmenu: false },
+    { id: 8, to: "donate", label: "Donate", hasSubmenu: false },
   ];
 
   return (

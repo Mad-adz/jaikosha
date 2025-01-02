@@ -9,12 +9,12 @@ import { testimonials } from "../../constants";
 
 const Testimonials = () => {
   return (
-    <section className="py-12">
+    <section className="py-12 bg-yellow-50/50">
       <div className="container">
         <h3 className="text-3xl font-bold mb-10">
           Connect with Like-Minded Souls
         </h3>
-        <div className="relative">
+        <div className="relative shadow-md rounded-md">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}

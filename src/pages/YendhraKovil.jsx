@@ -1,5 +1,15 @@
+import { yendhrakovilBanner } from "../assets/images";
+import { PanoramicBanner } from "../components";
+
 const YendhraKovil = () => {
-  return <div>YendhraKovil</div>;
+  return (
+    <main>
+      <PanoramicBanner
+        bgImg={yendhrakovilBanner}
+        title={"Yendhra Thirukkovil"}
+      />
+    </main>
+  );
 };
 
 export default YendhraKovil;

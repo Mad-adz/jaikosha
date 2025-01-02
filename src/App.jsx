@@ -8,12 +8,16 @@ import {
 import { RootLayout } from "./layouts";
 import {
   About,
+  AudioVideoSermons,
   Contact,
   Donate,
   Events,
   Home,
   Initiatives,
+  MeditationPractices,
   NotFound,
+  SpritualDevices,
+  SuperiorYoga,
   Workshops,
   YendhraKovil,
 } from "./pages";
@@ -32,6 +36,10 @@ const router = createBrowserRouter(
         <Route path="yendhrakovil" element={<YendhraKovil />} />
         <Route path="contact" element={<Contact />} />
         <Route path="donate" element={<Donate />} />
+        <Route path="meditation-practices" element={<MeditationPractices />} />
+        <Route path="superior-yoga" element={<SuperiorYoga />} />
+        <Route path="audio-video-sermons" element={<AudioVideoSermons />} />
+        <Route path="spiritual-devices" element={<SpritualDevices />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />
